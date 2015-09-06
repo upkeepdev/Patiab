@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekan/yekan-regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/iransans/iransans.woff') format("woff");
+}
+
+body {
+	font-family: yekan;
+	color: #FFF;
+}
+
+h1 {
+	font-family: yekan;
+	font-size: 70px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.container {
+	text-align: center;
+}
+
+.img-thumbnails {
+	padding: 6px;
+    -webkit-box-shadow: 0 0 7px 1px #c0c0c0;
+    -moz-box-shadow: 0 0 7px 1px #c0c0c0;
+    box-shadow: 0 0 7px 1px #c0c0c0;
+    background-color: #FFF;
+}
+
+.logo {
+	margin-top: 50px;	
+}
+
+.cp {
+	font-family: Candara;
+}
+
+/********************************************************************/
+
+.view-parent {
+	position: relative;
+}
+
+.view-body {
+	display: none;
+	z-index: 9999;
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	height: 253px;
+	margin: 0 auto;
+	padding-top: 8px;
+	cursor: pointer;
+}
+
+.view-text {
+	width: 203px;
+	margin: 0 auto;
+	background: #FFF;
+	height: 90px;
+	opacity: 0.8;
+}
+
+.view-text p {
+	font-size: 26px;
+	color: #000;
+}
+
